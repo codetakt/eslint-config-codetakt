@@ -1,18 +1,20 @@
-# eslint-config
+# What is this?
 
-codeTakt プロジェクト共通の ESLint ルールです
+Common ESLint configurations of the codeTakt's project.
 
-## 使い方
+## Usage
 
-リポジトリの `package.json` に eslint とルールを追加します
+Add this configurations and ESlint to your repository.
 
     npm i -D eslint @codetakt/eslint-config
 
-`.eslintrc` の extends に追加します。
+Set to `extends`.
 
     {
       "extends": ["@codetakt"]
     }
 
-なお @codetakt/eslint-config 自体が `extends: "eslint:recommended"` を  
-含みますので eslint:recommended は不要です。
+### NOTE
+
+This configuration extends `eslint:recommended`.
+So, please do not extend that in your repository.
