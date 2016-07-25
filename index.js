@@ -22,7 +22,7 @@ module.exports = {
     "no-spaced-func": "warn",
     "no-unused-vars": ["warn", { "args": "none" }],
     "no-var": "error",
-    "quotes": ["warn", "double", "avoid-escape"],
+    "quotes": ["warn", "double", {"avoidEscape": true, "allowTemplateLiterals": true}],
     "semi": ["error", "never"],
     "space-before-function-paren": ["warn", "never"],
     "strict": "error"
