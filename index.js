@@ -1,3 +1,6 @@
+/* eslint-env node */
+/* global module */
+
 "use strict"
 
 module.exports = {
