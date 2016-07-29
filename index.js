@@ -11,6 +11,7 @@ module.exports = {
   },
   extends: "eslint:recommended",
   rules: {
+    "brace-style":["error", "1tbs", { "allowSingleLine": true }],
     "camelcase": ["warn"],
     "eol-last": ["warn"],
     "eqeqeq": ["error", "smart"],
