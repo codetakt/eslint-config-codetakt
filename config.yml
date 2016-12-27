@@ -2,11 +2,11 @@
 extends: eslint:recommended
 
 env:
-  es6: true
   browser: true
+  es6: true
+  jquery: true
 
 parserOptions:
-  ecmaVersion: 6
   sourceType: script
 
 rules:
@@ -31,13 +31,16 @@ rules:
   - warn
   no-debugger:
   - warn
+  no-irregular-whitespace:
+  - error
+  - skipRegExps: true
   no-spaced-func:
   - warn
   no-unused-vars:
   - warn
   - args: none
   no-var:
-  - error
+  - off
   quotes:
   - warn
   - double
