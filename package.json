@@ -17,5 +17,8 @@
   "peerDependencies": {
     "eslint": "3.12.2"
   },
-  "repository": "https://github.com/codetakt/eslint-config"
+  "repository": "https://github.com/codetakt/eslint-config",
+  "dependencies": {
+    "require-yaml": "0.0.1"
+  }
 }
