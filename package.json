@@ -7,6 +7,7 @@
     "eslint-plugin-react": "6.8.0"
   },
   "files": [
+    "config.yml",
     "index.js",
     "README.md"
   ],
