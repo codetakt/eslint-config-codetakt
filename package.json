@@ -1,7 +1,7 @@
 {
-  "name": "@codetakt/eslint-config",
+  "name": "eslint-config-codetakt",
   "description": "codeTakt's ESLint config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "eslint": "3.18.0",
     "eslint-plugin-react": "6.10.2"
@@ -11,13 +11,13 @@
     "index.js",
     "README.md"
   ],
-  "homepage": "https://github.com/codetakt/eslint-config",
+  "homepage": "https://github.com/codetakt/eslint-config-codetakt",
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
     "eslint": "3.18.0"
   },
-  "repository": "https://github.com/codetakt/eslint-config",
+  "repository": "https://github.com/codetakt/eslint-config-codetakt",
   "dependencies": {
     "require-yaml": "0.0.1"
   }
