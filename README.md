@@ -6,12 +6,12 @@ Common ESLint configurations of the codeTakt's project.
 
 Add this configurations and ESlint to your repository.
 
-    npm i -D eslint @codetakt/eslint-config
+    npm i -D eslint eslint-config-codetakt
 
 Set to `extends`.
 
     {
-      "extends": ["@codetakt"]
+      "extends": ["codetakt"]
     }
 
 ### NOTE
