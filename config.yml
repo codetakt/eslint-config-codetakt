@@ -25,6 +25,8 @@ rules:
   indent:
   - error
   - 2
+  key-spacing:
+  - warn
   linebreak-style:
   - error
   - unix
@@ -42,6 +44,9 @@ rules:
   - args: none
   no-var:
   - off
+  object-curly-spacing:
+  - warn
+  - always
   quotes:
   - warn
   - double
@@ -52,5 +57,7 @@ rules:
   space-before-function-paren:
   - warn
   - never
+  space-infix-ops:
+  - warn
   strict:
   - error
