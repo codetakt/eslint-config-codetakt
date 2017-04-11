@@ -8,3 +8,8 @@ env:
 
 parserOptions:
   sourceType: script
+
+rules:
+  no-irregular-whitespace:
+    - error
+    - skipRegExps: true
