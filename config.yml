@@ -1,5 +1,5 @@
 ---
-extends: eslint:recommended
+extends: standard
 
 env:
   browser: true
@@ -10,54 +10,6 @@ parserOptions:
   sourceType: script
 
 rules:
-  brace-style:
-  - error
-  - 1tbs
-  - allowSingleLine: true
-  camelcase:
-  - warn
-  - properties: never
-  eol-last:
-  - warn
-  eqeqeq:
-  - error
-  - smart
-  indent:
-  - error
-  - 2
-  key-spacing:
-  - warn
-  linebreak-style:
-  - error
-  - unix
-  no-console:
-  - warn
-  no-debugger:
-  - warn
   no-irregular-whitespace:
-  - error
-  - skipRegExps: true
-  no-spaced-func:
-  - warn
-  no-unused-vars:
-  - warn
-  - args: none
-  no-var:
-  - off
-  object-curly-spacing:
-  - warn
-  - always
-  quotes:
-  - warn
-  - double
-  - avoidEscape: true
-  semi:
-  - error
-  - never
-  space-before-function-paren:
-  - warn
-  - never
-  space-infix-ops:
-  - warn
-  strict:
-  - error
+    - error
+    - skipRegExps: true
