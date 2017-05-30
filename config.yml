@@ -13,3 +13,6 @@ rules:
   no-irregular-whitespace:
     - error
     - skipRegExps: true
+  space-before-function-paren:
+    - error
+    - never
