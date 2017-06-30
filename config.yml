@@ -10,9 +10,29 @@ parserOptions:
   sourceType: script
 
 rules:
+  linebreak-style:
+    - error
+    - unix
+  no-case-declarations:
+    - error
+  no-console:
+    - warn
+  no-empty:
+    - error
+  no-extra-semi:
+    - error
   no-irregular-whitespace:
     - error
     - skipRegExps: true
+  no-unused-labels:
+    - error
+  object-curly-spacing:
+    - warn
+    - always
+  require-yield:
+    - error
   space-before-function-paren:
     - error
     - never
+  strict:
+    - error
