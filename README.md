@@ -45,7 +45,7 @@ Example:
   ]
 ```
 
-Cite from: <https://github.com/standard/eslint-config-standard/blob/v10.2.0/eslintrc.json#L1-L14>
+Cite from: <https://github.com/standard/eslint-config-standard/blob/v10.2.1/eslintrc.json#L1-L14>
 
 If your project conflicts with that configurations, please overwrite them.
 
