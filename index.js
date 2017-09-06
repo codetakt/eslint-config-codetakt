@@ -1,5 +1,4 @@
-/* eslint-env es6,node */
-/* global module */
+/* eslint-env node */
 
 require('require-yaml')
 module.exports = require('./config.yml')

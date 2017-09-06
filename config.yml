@@ -21,6 +21,8 @@ rules:
   object-curly-spacing:
     - warn
     - always
+  prefer-const:
+    - error
   require-yield:
     - error
   space-before-function-paren:
