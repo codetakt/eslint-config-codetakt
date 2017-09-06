@@ -1,6 +1,20 @@
 ---
 extends: standard
 
+env:
+  commonjs: false
+  node: false
+
+globals:
+  # window globals
+  URL: false
+  clearInterval: false
+  clearTimeout: false
+  console: false
+  location: false
+  setInterval: false
+  setTimeout: false
+
 rules:
   linebreak-style:
     - error
