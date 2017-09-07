@@ -3,7 +3,7 @@
   "description": "codeTakt's ESLint config",
   "version": "0.10.0",
   "devDependencies": {
-    "eslint": "4.1.1",
+    "eslint": "4.6.1",
     "eslint-plugin-react": "7.1.0"
   },
   "files": [
@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "4.1.1"
+    "eslint": "^4.1.1"
   },
   "repository": "https://github.com/codetakt/eslint-config-codetakt",
   "dependencies": {
