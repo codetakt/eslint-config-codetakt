@@ -53,8 +53,8 @@ If your project conflicts with that configurations, please overwrite them.
 
 ## Semantic Versioning Guidelines
 
-- When bumping eslint or base rule, bump corresponding version part of this module.
-  - e.g. When bumping eslint 1.2.3 to 1.3.4, bump our minor version.
+- When bumping ESLint or base rule, bump corresponding version part of this module.
+  - e.g. When bumping ESLint 1.2.3 to 1.3.4, bump our minor version.
 
 Plus:
 
