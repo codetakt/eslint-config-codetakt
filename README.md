@@ -50,3 +50,13 @@ Cite from: <https://github.com/standard/eslint-config-standard/blob/v10.2.1/esli
 If your project conflicts with that configurations, please overwrite them.
 
 [eslint-config-standard]: https://github.com/standard/eslint-config-standard "ESLint Config for JavaScript Standard Style."
+
+## Semantic Versioning Guidelines
+
+- When bumping ESLint or base rule, bump corresponding version part of this module.
+  - e.g. When bumping ESLint 1.2.3 to 1.3.4, bump our minor version.
+
+Plus:
+
+- Tighten (and relax) rules -> Major
+- Relax rules -> Minor
