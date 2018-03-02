@@ -16,6 +16,8 @@ globals:
   setTimeout: false
 
 rules:
+  comma-dangle:
+    - off
   linebreak-style:
     - error
     - unix
