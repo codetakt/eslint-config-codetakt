@@ -23,7 +23,7 @@ extends: codetakt
 
 ## Note
 
-This configuration extends the [eslint-config-standard][], and that configuration is quite opinionated.
+This configuration base on the [eslint-config-standard][] and [prettier][]. Those configuration is quite opinionated.
 
 Example:
 
@@ -47,7 +47,7 @@ Example:
     "node",
     "promise",
     "standard"
-  ]
+  ],
 ```
 
 Cite from: <https://github.com/standard/eslint-config-standard/blob/v14.1.0/eslintrc.json#L1-L20>
@@ -55,6 +55,7 @@ Cite from: <https://github.com/standard/eslint-config-standard/blob/v14.1.0/esli
 If your project conflicts with that configurations, please overwrite them.
 
 [eslint-config-standard]: https://github.com/standard/eslint-config-standard "ESLint Config for JavaScript Standard Style."
+[prettier]: https://prettier.io/docs/en/integrating-with-linters.html "Integrating with Linters · Prettier"
 
 ## Semantic Versioning Guidelines
 
