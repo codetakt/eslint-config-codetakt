@@ -7,12 +7,12 @@
   },
   "devDependencies": {
     "eslint": "6.8.0",
-    "eslint-config-standard": "11.0.0",
+    "eslint-config-standard": "14.1.0",
     "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-node": "6.0.1",
-    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.18.3",
-    "eslint-plugin-standard": "3.0.1"
+    "eslint-plugin-standard": "4.0.1"
   },
   "files": [
     "config.yml",
@@ -24,12 +24,12 @@
   "main": "index.js",
   "peerDependencies": {
     "eslint": "6.8.x",
-    "eslint-config-standard": "11.1.x",
+    "eslint-config-standard": "14.1.x",
     "eslint-plugin-import": "2.20.x",
-    "eslint-plugin-node": "6.0.x",
-    "eslint-plugin-promise": "3.6.x",
+    "eslint-plugin-node": "11.0.x",
+    "eslint-plugin-promise": "4.2.x",
     "eslint-plugin-react": "7.18.x",
-    "eslint-plugin-standard": "3.0.x"
+    "eslint-plugin-standard": "4.0.x"
   },
   "repository": "https://github.com/codetakt/eslint-config-codetakt"
 }

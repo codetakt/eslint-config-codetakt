@@ -30,9 +30,8 @@ Example:
 ```json
 {
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2020,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "jsx": true
     },
     "sourceType": "module"
@@ -51,7 +50,7 @@ Example:
   ]
 ```
 
-Cite from: <https://github.com/standard/eslint-config-standard/blob/v10.2.1/eslintrc.json#L1-L14>
+Cite from: <https://github.com/standard/eslint-config-standard/blob/v14.1.0/eslintrc.json#L1-L20>
 
 If your project conflicts with that configurations, please overwrite them.
 
