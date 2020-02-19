@@ -3,7 +3,7 @@
   "description": "codeTakt's ESLint config",
   "version": "0.12.0",
   "devDependencies": {
-    "eslint": "4.18.2"
+    "eslint": "6.8.0"
   },
   "files": [
     "config.yml",
@@ -14,15 +14,15 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "4.18.x"
+    "eslint": "6.8.x"
   },
   "repository": "https://github.com/codetakt/eslint-config-codetakt",
   "dependencies": {
     "eslint-config-standard": "11.0.0",
-    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-import": "2.20.1",
     "eslint-plugin-node": "6.0.1",
     "eslint-plugin-promise": "3.6.0",
-    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-react": "7.18.3",
     "eslint-plugin-standard": "^3.0.1",
     "require-yaml": "0.0.1"
   }
