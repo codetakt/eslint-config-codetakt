@@ -7,6 +7,12 @@ Common ESLint configurations of the codeTakt's project.
 Add this configurations and ESlint to your repository.
 
     npm i -D eslint eslint-config-codetakt
+    npx install-peerdeps --dev eslint-config-codetakt
+
+or
+
+    yarn add --dev eslint-config-codetakt
+    npx install-peerdeps --dev --yarn eslint-config-codetakt
 
 Set to `extends` (This example is YAML format).
 
