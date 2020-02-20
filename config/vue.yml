@@ -1,0 +1,18 @@
+---
+extends:
+  - plugin:vue/strongly-recommended
+
+rules:
+  vue/max-attributes-per-line: off
+  vue/singleline-html-element-content-newline: off
+
+  # Succumb to the rule of Prettier.
+  #
+  # Note that, a self-closing tag on the void elements isn't invalid
+  # on the Live Standard.
+  #
+  # https://html.spec.whatwg.org/multipage/syntax.html#start-tags
+  vue/html-self-closing:
+    - error
+    - html:
+        void: always

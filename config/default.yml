@@ -1,5 +1,10 @@
 ---
-extends: standard
+extends:
+  - standard
+  - prettier
+
+plugins:
+  - prettier
 
 env:
   commonjs: false
@@ -16,18 +21,17 @@ globals:
   setTimeout: false
 
 rules:
-  comma-dangle:
-    - off
-  linebreak-style:
-    - error
-    - unix
+  prettier/prettier:
+    - warn
+    - printWidth: 120
+      semi: false
+      singleQuote: true
+
   no-case-declarations:
     - error
   no-console:
     - warn
   no-empty:
-    - error
-  no-extra-semi:
     - error
   no-irregular-whitespace:
     - error
@@ -41,8 +45,8 @@ rules:
     - error
   require-yield:
     - error
-  space-before-function-paren:
-    - error
-    - never
+  sort-imports:
+    - warn
+    - ignoreCase: true
   strict:
     - error

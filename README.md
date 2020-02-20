@@ -7,6 +7,12 @@ Common ESLint configurations of the codeTakt's project.
 Add this configurations and ESlint to your repository.
 
     npm i -D eslint eslint-config-codetakt
+    npx install-peerdeps --dev eslint-config-codetakt
+
+or
+
+    yarn add --dev eslint-config-codetakt
+    npx install-peerdeps --dev --yarn eslint-config-codetakt
 
 Set to `extends` (This example is YAML format).
 
@@ -15,18 +21,26 @@ Set to `extends` (This example is YAML format).
 extends: codetakt
 ```
 
+If you want to use the configuration of the Vue.js:
+
+```yaml
+---
+extends:
+  - codetakt
+  - codetakt/vue
+```
+
 ## Note
 
-This configuration extends the [eslint-config-standard][], and that configuration is quite opinionated.
+This configuration base on the [eslint-config-standard][] and [prettier][]. Those configuration is quite opinionated.
 
 Example:
 
 ```json
 {
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2020,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "jsx": true
     },
     "sourceType": "module"
@@ -42,14 +56,15 @@ Example:
     "node",
     "promise",
     "standard"
-  ]
+  ],
 ```
 
-Cite from: <https://github.com/standard/eslint-config-standard/blob/v10.2.1/eslintrc.json#L1-L14>
+Cite from: <https://github.com/standard/eslint-config-standard/blob/v14.1.0/eslintrc.json#L1-L20>
 
 If your project conflicts with that configurations, please overwrite them.
 
 [eslint-config-standard]: https://github.com/standard/eslint-config-standard "ESLint Config for JavaScript Standard Style."
+[prettier]: https://prettier.io/docs/en/integrating-with-linters.html "Integrating with Linters · Prettier"
 
 ## Semantic Versioning Guidelines
 
