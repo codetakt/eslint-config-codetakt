@@ -21,6 +21,15 @@ Set to `extends` (This example is YAML format).
 extends: codetakt
 ```
 
+If you want to use the configuration of the Vue.js:
+
+```yaml
+---
+extends:
+  - codetakt
+  - codetakt/vue
+```
+
 ## Note
 
 This configuration base on the [eslint-config-standard][] and [prettier][]. Those configuration is quite opinionated.

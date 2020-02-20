@@ -45,5 +45,8 @@ rules:
     - error
   require-yield:
     - error
+  sort-imports:
+    - warn
+    - ignoreCase: true
   strict:
     - error
