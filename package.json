@@ -23,6 +23,7 @@
     "config/*.yml",
     "index.js",
     "typescript.js",
+    "react.js",
     "vue.js"
   ],
   "homepage": "https://github.com/codetakt/eslint-config-codetakt",
