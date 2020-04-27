@@ -14,20 +14,19 @@ or
     yarn add --dev eslint-config-codetakt
     npx install-peerdeps --dev --yarn eslint-config-codetakt
 
+Note that, this will also introduce a number of unnecessary packages for your product. You can delete unnecessary things manually.
+
 Set to `extends` (This example is YAML format).
-
-```yaml
----
-extends: codetakt
-```
-
-If you want to use the configuration of the Vue.js:
 
 ```yaml
 ---
 extends:
   - codetakt
+
+  # These are optional settings.
+  # If you want to use them, uncomment that.
   - codetakt/vue
+  - codetakt/typescript
 ```
 
 ## Note
