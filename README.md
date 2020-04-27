@@ -25,8 +25,9 @@ extends:
 
   # These are optional settings.
   # If you want to use them, uncomment that.
-  - codetakt/vue
-  - codetakt/typescript
+  # - codetakt/react
+  # - codetakt/vue
+  # - codetakt/typescript
 ```
 
 ## Note
