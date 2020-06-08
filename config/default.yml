@@ -23,8 +23,7 @@ globals:
 rules:
   prettier/prettier:
     - warn
-    - printWidth: 120
-      semi: false
+    - semi: false
       singleQuote: true
 
   no-case-declarations:
