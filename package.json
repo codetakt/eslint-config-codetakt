@@ -3,20 +3,19 @@
   "description": "codeTakt's ESLint config",
   "version": "0.15.0",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "3.3.0",
-    "@typescript-eslint/parser": "3.3.0",
-    "eslint": "7.2.0",
+    "@typescript-eslint/eslint-plugin": "3.10.1",
+    "@typescript-eslint/parser": "3.10.1",
+    "eslint": "7.7.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-config-standard": "14.1.1",
-    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-import": "2.22.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react": "7.20.6",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.2.2",
-    "prettier": "2.0.5",
-    "typescript-eslint-parser": "22.0.0"
+    "prettier": "2.1.1"
   },
   "files": [
     "README.md",
@@ -30,20 +29,19 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "3.3.x",
-    "@typescript-eslint/parser": "3.3.x",
-    "eslint": "7.2.x",
+    "@typescript-eslint/eslint-plugin": "3.10.x",
+    "@typescript-eslint/parser": "3.10.x",
+    "eslint": "7.7.x",
     "eslint-config-prettier": "6.11.x",
     "eslint-config-standard": "14.1.x",
-    "eslint-plugin-import": "2.21.x",
+    "eslint-plugin-import": "2.22.x",
     "eslint-plugin-node": "11.1.x",
     "eslint-plugin-prettier": "3.1.x",
     "eslint-plugin-promise": "4.2.x",
     "eslint-plugin-react": "7.20.x",
     "eslint-plugin-standard": "4.0.x",
     "eslint-plugin-vue": "6.2.x",
-    "prettier": "2.0.x",
-    "typescript-eslint-parser": "22.0.x"
+    "prettier": "2.1.x"
   },
   "repository": "https://github.com/codetakt/eslint-config-codetakt"
 }
