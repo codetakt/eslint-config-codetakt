@@ -16,3 +16,4 @@ rules:
     - error
     - html:
         void: always
+  vue/component-tags-order: error
