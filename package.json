@@ -2,7 +2,7 @@
   "name": "eslint-config-codetakt",
   "description": "codeTakt's ESLint config",
   "license": "MIT",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "homepage": "https://github.com/codetakt/eslint-config-codetakt",
   "repository": "https://github.com/codetakt/eslint-config-codetakt",
   "main": "index.js",
