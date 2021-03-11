@@ -16,4 +16,9 @@ rules:
     - error
     - html:
         void: always
-  vue/component-tags-order: error
+  vue/component-tags-order:
+    - error
+    - order:
+        - template
+        - script
+        - style
