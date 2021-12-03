@@ -43,5 +43,9 @@
     "eslint-plugin-standard": "4.0.x",
     "eslint-plugin-vue": "6.2.x",
     "prettier": "2.1.x"
+  },
+  "volta": {
+    "node": "12.16.2",
+    "yarn": "1.22.17"
   }
 }
